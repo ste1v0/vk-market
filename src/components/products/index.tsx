@@ -13,7 +13,7 @@ function ProductsData() {
 
     return (
         <>
-            <Box component={'div'} width={'75%'} padding={'2vh 1vw'} display={'flex'} gap={3} flexWrap={'wrap'}>
+            <Box component={'div'} justifyContent={{ xs: 'center', sm: 'flex-start'}} width={'75%'} padding={'2vh 1vw'} display={'flex'} gap={3} flexWrap={'wrap'}>
                 {dataStore.data.length === 0 
                     ? <Box display={'flex'} gap={5} flexWrap={'wrap'}>
                         <ProductCard key={1} id={1} image={<Skeleton width={250} height={140}/>} description={<Skeleton />} title={<Skeleton />} price={<Skeleton width={'3rem'}/>}/>
