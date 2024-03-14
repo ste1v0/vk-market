@@ -1,7 +1,6 @@
 import Products from '../products'
 
 function HeroLeft() {
-
     return (
         <> 
             <Products />

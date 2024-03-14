@@ -6,7 +6,6 @@ import HeroRight from '../hero-right';
 
 
 function Hero() {
-
 	return (
 		<>	<Stack
 				display={'flex'}
