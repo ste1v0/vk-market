@@ -1,4 +1,3 @@
-import React from 'react'
 import { observer } from 'mobx-react-lite'
 import Stack from '@mui/material/Stack';
 import { Divider } from '@mui/material';

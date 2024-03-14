@@ -1,4 +1,3 @@
-import React from 'react'
 import cartStore from '../../store/cart-store'
 import dataStore from '../../store/data-store';
 import { observer } from 'mobx-react-lite'
