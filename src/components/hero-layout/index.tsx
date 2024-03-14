@@ -13,7 +13,6 @@ function Hero() {
 				direction={{ xs: 'column', sm: 'row' }}
 				divider={<Divider orientation="vertical" flexItem/>}
 				alignItems={'center'}
-				
 			>
 				<HeroLeft />
 				<HeroRight />
