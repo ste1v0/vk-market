@@ -1,12 +1,12 @@
 import Header from "../header"
-import Hero from "../hero"
+import HeroLayout from "../hero-layout"
 
 function App() {
 
 	return (
 		<>
 			<Header />
-			<Hero />
+			<HeroLayout />
 		</>
 	)
 }
