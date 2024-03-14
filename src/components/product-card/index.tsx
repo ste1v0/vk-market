@@ -20,7 +20,7 @@ const callbacks = {
 
 function Product({ id, image, description, title, price } : ({ id: number, image: string | JSX.Element, description: string | JSX.Element, title: string | JSX.Element, price: number | JSX.Element})) {
     
-    const addBtn = dataStore.isLoading ? <Skeleton width={'2rem'}/> : 'Add'
+    const addBtn = dataStore.isLoading ? <Skeleton width={'2rem'}/> : 'Добавить'
     
     return (
         <>
